@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #020617;
+  color: #f1f5f9;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  text-align: left;
+  border: none;
+  max-width: 100%;
+}
+
+/* Leaflet fix */
+.leaflet-container {
+  background: #1e293b !important;
+}
